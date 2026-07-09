@@ -36,7 +36,7 @@ export default function Home() {
   );
 
   return (
-    <div className="flex flex-col flex-1 bg-background px-6 md:px-12 py-16 w-full max-w-full">
+    <div className="flex flex-col flex-1 bg-background px-6  py-16 w-full max-w-full">
       <div className="w-full max-w-full flex flex-col gap-10">
         <Header />
         
