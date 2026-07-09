@@ -19,7 +19,7 @@ export default function Navbar() {
           />
           {/* Dark Mode Logo */}
           <Image
-            src="/Logo/apen_tools_logo_dark.svg"
+            src="/logo/apen_tools_logo_dark.svg"
             alt="Apen Tools Icon"
             width={35}
             height={35}
