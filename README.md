@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apen Apps Tools (`tools.apenapps.com`)
 
-## Getting Started
+A centralized, professional hub for utility tools developed by **Apen Apps**, such as Resume Builder and Visa Doc. Built using a strict, shadow-free, modern minimalist design aesthetic with fluid components engineered for instant workflows.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Tech Stack
+
+*   **Framework:** Next.js (App Router)
+*   **Styling:** Tailwind CSS v4
+*   **Typography:** Oxanium (Headings), Montserrat (Body)
+
+---
+
+## 🎨 Design System Specifications
+
+The application strictly implements a flat utility system directly coupled with Google-style structural properties:
+
+*   **Primary Accent:** `#E7B339` (Gold)
+*   **Light Theme Background:** `#FFFFFF`
+*   **Dark Theme Background:** `#171717` (True Deep Dark Neutral)
+*   **Border Radius:** Modern, rounded-container shapes (`rounded-xl` / `rounded-2xl`)
+*   **Shadows:** None (`box-shadow: none !important` forced globally)
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── app/
+│   ├── layout.tsx       # Core root configuration (Fonts optimization & wrappers)
+│   ├── page.tsx         # Main dynamic tools platform view
+│   └── globals.css      # Consolidated centralized CSS & Tailwind configuration
+├── components/
+│   ├── global/
+│   │   ├── Navbar.tsx   # Dual-theme top navigation layout header
+│   │   └── Footer.tsx   # Simplified automated copyright block
+│   └── home/
+│       ├── Header.tsx   # Marketing introduction engine
+│       ├── Filters.tsx  # Multi-category client action controls
+│       └── ToolCard.tsx # Unified grid listing container interface
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
+###1. Installation
+Clone the repository and install dependencies:
+```npm install```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+####2. Development Server
+Run the local compiler pipeline:
+```npm run dev```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open http://localhost:3000 inside your engine to view the development preview.
 
-## Learn More
+##3. Production Compilation
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Build and optimize for server runtime execution:
+```bash
+npm run build
+npm run start
+```
