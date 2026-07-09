@@ -42,17 +42,17 @@ The application strictly implements a flat utility system directly coupled with 
 ```
 
 ## 🛠️ Getting Started
-###1. Installation
+### 1. Installation
 Clone the repository and install dependencies:
 ```npm install```
 
-####2. Development Server
+### 2. Development Server
 Run the local compiler pipeline:
 ```npm run dev```
 
 Open http://localhost:3000 inside your engine to view the development preview.
 
-##3. Production Compilation
+## 3. Production Compilation
 
 Build and optimize for server runtime execution:
 ```bash
