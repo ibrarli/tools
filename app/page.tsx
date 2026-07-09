@@ -12,8 +12,8 @@ const tools = [
     href: "https://resume.apenapps.com",
     status: "Active",
     category: "Documents",
-    logoLight: "/Logo/resume_logo.svg",
-    logoDark: "/Logo/resume_logo_dark.svg",
+    logoLight: "/logo/resume_logo.svg",
+    logoDark: "/logo/resume_logo_dark.svg",
   },
   {
     name: "Visa Doc",
@@ -21,8 +21,8 @@ const tools = [
     href: "https://visadoc.apenapps.com",
     status: "Active",
     category: "Documents",
-    logoLight: "/Logo/visadoc_logo.svg",
-    logoDark: "/Logo/visadoc_logo_dark.svg",
+    logoLight: "/logo/visadoc_logo.svg",
+    logoDark: "/logo/visadoc_logo_dark.svg",
   },
 ];
 

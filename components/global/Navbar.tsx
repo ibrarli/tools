@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center gap-2.5 group">
           {/* Light Mode Logo */}
           <Image
-            src="/Logo/apen_tools_logo.svg"
+            src="/logo/apen_tools_logo.svg"
             alt="Apen Tools Icon"
             width={35}
             height={35}
