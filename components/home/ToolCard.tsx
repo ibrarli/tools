@@ -13,7 +13,7 @@ interface Tool {
 
 export default function ToolCard({ tool }: { tool: Tool }) {
   return (
-    <div className="flex flex-col justify-between p-5 bg-background border-2 border-foreground/10 rounded-2xl transition-colors hover:border-primary group">
+    <div className="flex flex-col justify-between p-5 bg-background border-2 border-foreground/10 rounded-2xl transition-colors hover:border-secondary group">
       <div className="flex flex-col gap-4">
         <div className="flex items-start justify-between">
           <Link href={tool.href} className="inline-block" target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ export default function ToolCard({ tool }: { tool: Tool }) {
               className="hidden dark:block object-contain"
             />
           </Link>
-          <span className="text-[9px] font-bold px-2 py-0.5 rounded-md bg-primary/10 text-primary uppercase tracking-wider font-body">
+          <span className="text-[9px] font-bold px-2 py-0.5 rounded-md bg-secondary/10 text-secondary uppercase tracking-wider font-body">
             {tool.status}
           </span>
         </div>

@@ -15,17 +15,9 @@ export default function Navbar() {
             width={35}
             height={35}
             priority
-            className="block dark:hidden object-contain"
+            className="block object-contain"
           />
-          {/* Dark Mode Logo */}
-          <Image
-            src="/logo/apen_tools_logo_dark.svg"
-            alt="Apen Tools Icon"
-            width={35}
-            height={35}
-            priority
-            className="hidden dark:block object-contain"
-          />
+    
           
           {/* Brand Text */}
           <span className="text-xl font-bold tracking-tight text-foreground font-heading">
@@ -38,7 +30,7 @@ export default function Navbar() {
    
           <Link
             href="https://apenapps.com"
-            className="inline-flex h-9 items-center justify-center rounded-xl bg-primary px-4 text-xs font-semibold font-body text-dark-neutral transition-opacity hover:opacity-90"
+            className="inline-flex h-9 items-center justify-center rounded-xl bg-secondary px-4 text-xs font-semibold font-body text-dark-neutral transition-opacity hover:opacity-90"
           >
             Main Website
           </Link>

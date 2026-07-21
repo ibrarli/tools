@@ -13,7 +13,7 @@ const tools = [
     status: "Active",
     category: "Documents",
     logoLight: "/logo/resume_logo.svg",
-    logoDark: "/logo/resume_logo_dark.svg",
+    logoDark: "/logo/resume_logo.svg",
   },
   {
     name: "Visa Doc",
